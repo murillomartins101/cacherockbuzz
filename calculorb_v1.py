@@ -34,7 +34,7 @@ def default_rows():
         {"Item": "2. Ajudantes/Staff",      "Descrição": "Pagamento de ajudantes (roadies)",                 "Quantidade": 0, "Custo Unitário (R$)": 0.00, "Incluir": True},
         {"Item": "3. Transporte",           "Descrição": "Aluguel/combustível de carros próprios (3 ou 4)",  "Quantidade": 0, "Custo Unitário (R$)": 0.00, "Incluir": True},
         {"Item": "4. Pedágio",              "Descrição": "Custos com pedágios (ida e volta)",                "Quantidade": 0, "Custo Unitário (R$)": 0.00, "Incluir": True},
-        {"Item": "5. Combustível",          "Descrição": "Estimativa ida/volta (média de 200 km, por carro)", "Quantidade": 0, "Custo Unitário (R$)": 0.00, "Incluir": True},
+        {"Item": "5. Combustível",          "Descrição": "Estimativa ida/volta (média de 13km/L km, por carro)", "Quantidade": 0, "Custo Unitário (R$)": 0.00, "Incluir": True},
         {"Item": "6. Alimentação",          "Descrição": "Refeição completa para 8 pessoas",                 "Quantidade": 0, "Custo Unitário (R$)": 0.00, "Incluir": True},
         {"Item": "7. Hospedagem (opcional)","Descrição": "Caso haja necessidade de pernoite",                "Quantidade": 0, "Custo Unitário (R$)": 0.00, "Incluir": True},
         {"Item": "8. Som/Luz Kiko",         "Descrição": "PA até 100 pessoas/Monitoramento Banda/Luz",       "Quantidade": 0, "Custo Unitário (R$)": 0.00, "Incluir": True},
@@ -481,3 +481,4 @@ if restore:
 
 # manter estado de itens
 st.session_state.df = edited_df
+
