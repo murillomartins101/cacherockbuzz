@@ -136,13 +136,6 @@ ensure_state()
 # =========================
 # Sidebar – Configurações
 # =========================
-with st.sidebar:
-    st.image(
-        "https://raw.githubusercontent.com/murillomartins101/Rockbuzz-Pay/65be9ca11db1977a1154e215ba2954bb537a4a6f/LOGO%20DEFINITIVO%20FUNDO%20ESCURO.png",
-        use_container_width=True,
-    )
-    st.markdown("---")
-    
     # Parâmetros Gerais
     with st.expander("⚙️ Parâmetros Gerais", expanded=True):
         margem_pct = st.number_input("Margem de Lucro (%)", min_value=0.0, max_value=200.0, value=30.0, step=5.0)
@@ -670,5 +663,6 @@ st.markdown("""
     Desenvolvido por <a href="https://aditivomedia.com" target="_blank">Aditivo Media</a>
 </div>
 """, unsafe_allow_html=True)
+
 
 
