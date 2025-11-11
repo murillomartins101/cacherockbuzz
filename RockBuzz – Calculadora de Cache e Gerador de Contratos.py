@@ -137,10 +137,6 @@ ensure_state()
 # Sidebar – Configurações
 # =========================
 with st.sidebar:
-    st.image(
-        "https://xxxxxxxx",
-        use_container_width=True,
-    )
     st.markdown("---")
     # Parâmetros Gerais
     with st.expander("⚙️ Parâmetros Gerais", expanded=True):
@@ -669,6 +665,7 @@ st.markdown("""
     Desenvolvido por <a href="https://aditivomedia.com" target="_blank">Aditivo Media</a>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
