@@ -137,7 +137,9 @@ ensure_state()
 # Sidebar – Configurações
 # =========================
 with st.sidebar:
-    st.image("https://github.com/murillomartins101/Rockbuzz-Pay/blob/65be9ca11db1977a1154e215ba2954bb537a4a6f/LOGO%20DEFINITIVO%20FUNDO%20ESCURO.png", use_container_width=True)
+  st.image("https://raw.githubusercontent.com/murillomartins101/Rockbuzz-Pay/65be9ca11db1977a1154e215ba2954bb537a4a6f/LOGO%20DEFINITIVO%20FUNDO%20ESCURO.png",
+    use_container_width=True,
+)
     st.markdown("---")
     
     # Parâmetros Gerais
@@ -667,3 +669,4 @@ st.markdown("""
     Desenvolvido por <a href="https://aditivomedia.com" target="_blank">Aditivo Media</a>
 </div>
 """, unsafe_allow_html=True)
+
