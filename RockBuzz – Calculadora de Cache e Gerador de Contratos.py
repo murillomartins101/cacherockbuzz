@@ -136,6 +136,12 @@ ensure_state()
 # =========================
 # Sidebar – Configurações
 # =========================
+with st.sidebar:
+    st.image(
+        "https://xxxxxxxx",
+        use_container_width=True,
+    )
+    st.markdown("---")
     # Parâmetros Gerais
     with st.expander("⚙️ Parâmetros Gerais", expanded=True):
         margem_pct = st.number_input("Margem de Lucro (%)", min_value=0.0, max_value=200.0, value=30.0, step=5.0)
@@ -663,6 +669,7 @@ st.markdown("""
     Desenvolvido por <a href="https://aditivomedia.com" target="_blank">Aditivo Media</a>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
