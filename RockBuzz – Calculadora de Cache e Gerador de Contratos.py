@@ -1,4 +1,4 @@
-# Rockbuzz Pay – Calculadora de Cachê (Versão Aprimorada)
+# Rockbuzz Pay – Calculadora de Cachê 
 # -------------------------------------------------------------------------------
 import streamlit as st
 import pandas as pd
