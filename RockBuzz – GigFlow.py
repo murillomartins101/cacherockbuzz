@@ -15,7 +15,7 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer
 
 st.set_page_config(
-    page_title="Rockbuzz Pay | Calculadora de Cachê + Contrato",
+    page_title="Rockbuzz Gigflow | Calculadora de Custos e Emissão de Contratos",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -666,6 +666,7 @@ st.markdown("""
     Desenvolvido por <a href="https://aditivomedia.com" target="_blank">Aditivo Media</a>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
