@@ -1,4 +1,5 @@
-# Rockbuzz Pay – Calculadora de Cachê 
+# Rockbuzz Pay – GigFlow
+# Calculadora de custos de um show e emissão de contratos pequenos
 # -------------------------------------------------------------------------------
 import streamlit as st
 import pandas as pd
@@ -665,6 +666,7 @@ st.markdown("""
     Desenvolvido por <a href="https://aditivomedia.com" target="_blank">Aditivo Media</a>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
